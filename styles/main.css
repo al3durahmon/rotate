@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  height: 95vh;
+}
+.boxs{
+ margin: auto;
+}
+.box-1{
+  background-color: aqua;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50px;
+  transition: 0.7s ease;
+}
+.box-1:hover{
+  background-color: red;
+  transform: rotate(180deg);
+}
+.box-1:active{
+  border-color: chartreuse;
+  transform: rotate(180deg);
+  box-shadow: 0 10px 8px 10px aqua;
+}
+.box-2{
+  background-color: aquamarine;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 50px;
+  transition: 0.7s ease;
+}
+.box-2:hover{
+  background-color: cornflowerblue;
+  transform: rotate(180deg);
+}
+.box-3{
+  background-color: bisque; 
+  width: 250px;
+  height: 250px;
+  transition: 0.7s ease;
+}
+.box-3:hover{
+  background-color: deeppink;
+  transform: rotate(180deg);
+}
+.box-4{
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+  transition: 0.7s ease;
+}
+.box-4:hover{
+  background-color: lawngreen;
+  transform: rotate(180deg);
+}
+.box-5{
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 50px;
+  top: 270px;
+  transition: 0.7s ease;
+}
+.box-5:hover{
+  background-color: royalblue;
+  transform: rotate(180deg);
+}
+.box-6{
+  background-color: blueviolet;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 270px;
+  transition: 0.7s ease;
+}
+.box-6:hover{
+  background-color: darkgreen;
+  transform: rotate(180deg);
+}
+.box-7{
+  background-color: cadetblue;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50px;
+  top: 535px;
+  transition: 0.7s ease;
+}
+.box-7:hover{
+  border-color: cyan;
+  transform: rotate(180deg);
+}
+.box-8{
+  background-color: brown;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 585px;
+  top: 273px;
+  transition: 0.7s ease;
+}
+.box-8:hover{
+  background-color: darkred;
+  transform: rotate(180deg);
+}
+.box-9{
+  background-color: chartreuse;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 25px;
+  transition: 0.7s ease;
+}
+.box-9:hover{
+  border-color: magenta;
+  transform: rotate(180deg);
+}
